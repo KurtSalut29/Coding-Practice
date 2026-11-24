@@ -3,8 +3,8 @@ import java.util.*;
 public class day6 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            int t = sc.nextInt();
 
         for(int i = 0; i < t; i++){
             try
@@ -32,3 +32,5 @@ public class day6 {
     }
     
 }
+}
+
